@@ -1,3 +1,14 @@
+Chaos Familiar was built by Adam Flores, heavily inspired by ChaosGacha from BronzDeck.
+
+I tried to find a Gacha with only summons/characters/familiars, but those I found were either limited, or just not well-made.
+
+So yes, this is a case of "Fine, I'll do it myself".
+
+If you use Chaos Familiar, mention me by name- I'd appreciate it. Or you could also just link my profile on Webnovel. Or maybe other ones when I actually get around to making accounts on other fanfiction sites.
+
+
+
+
 # Chaos Familiar — Public Version
 
 A gacha-style anime character summoning simulator for creative writing, worldbuilding, and roleplay. Pull familiars from a curated pool, build teams, track collections, and use the inspiration tools for your fanfic or RP sessions.
@@ -32,6 +43,7 @@ This build has no in-app add form. Open `data/characters.json` in any text edito
   "image": "https://example.com/image.png"
 }
 ```
+Image is optional. If included, you must have full rights to the image (created it yourself, or have explicit permission). A unique generated sigil is shown by default. 
 
 **Tier guide (in-universe power only — never fame or popularity):**
 
@@ -58,7 +70,7 @@ This build has no in-app add form. Open `data/characters.json` in any text edito
 
 ## Want more?
 
-The full hosted version has an admin panel, in-app character suggestions, a curated pool of 200+ characters, and more features. Check it out at **[your site URL here]**.
+The full hosted version has an admin panel, in-app character suggestions, a curated pool of 200+ characters, and more features. Check it out at **https://chaos-familiar.onrender.com**.
 
 ## License
 

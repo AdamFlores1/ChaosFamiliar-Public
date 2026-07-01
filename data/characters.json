@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "Rem",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Maid",
+      "Demon",
+      "Tsundere-turned-Devoted",
+      "Twin"
+    ]
+  },
+  {
+    "name": "Emilia",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Half-Elf",
+      "Spirit Arts User",
+      "Royal Candidate"
+    ]
+  },
+  {
+    "name": "Beatrice",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Spirit",
+      "Magic User",
+      "Librarian",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Echidna",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Witch",
+      "Magic User",
+      "Manipulator"
+    ]
+  },
+  {
+    "name": "Satella",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "Witch",
+      "God-tier",
+      "Reality Warper",
+      "Jealousy Incarnate"
+    ]
+  },
+  {
+    "name": "Ram",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Demon",
+      "Maid",
+      "Oni",
+      "Twin"
+    ]
+  },
+  {
+    "name": "Frederica Baumann",
+    "source": "Re:Zero",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Maid",
+      "Beastfolk"
+    ]
+  },
+  {
+    "name": "Hinata Hyuga",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Ninja",
+      "Martial Artist",
+      "Clan Heiress",
+      "Shy"
+    ]
+  },
+  {
+    "name": "Tsunade",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Medical Ninja",
+      "Sannin",
+      "Healer"
+    ]
+  },
+  {
+    "name": "Kaguya Otsutsuki",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "God-tier",
+      "Reality Warper",
+      "Ancient Being",
+      "Chakra Origin"
+    ]
+  },
+  {
+    "name": "Sakura Haruno",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Ninja",
+      "Medical Ninja",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Konan",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Origami User",
+      "Akatsuki"
+    ]
+  },
+  {
+    "name": "Kushina Uzumaki",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Jinchuriki",
+      "Mother",
+      "Tomboy"
+    ]
+  },
+  {
+    "name": "Temari",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Ninja",
+      "Wind User",
+      "Tomboy"
+    ]
+  },
+  {
+    "name": "Mei Terumi",
+    "source": "Naruto",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Kage",
+      "Lava Release"
+    ]
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "source": "Naruto",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Ninja",
+      "Jinchuriki",
+      "Protagonist",
+      "Determined"
+    ]
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "source": "Naruto",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Ninja",
+      "Swordsman",
+      "Clan Heir",
+      "Sharingan User"
+    ]
+  },
+  {
+    "name": "Itachi Uchiha",
+    "source": "Naruto",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Ninja",
+      "Swordsman",
+      "Genjutsu Master",
+      "Tragic Hero"
+    ]
+  },
+  {
+    "name": "Kakashi Hatake",
+    "source": "Naruto",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Swordsman",
+      "Mentor",
+      "Sharingan User"
+    ]
+  },
+  {
+    "name": "Minato Namikaze",
+    "source": "Naruto",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Ninja",
+      "Kage",
+      "Speedster"
+    ]
+  },
+  {
+    "name": "Nezuko Kamado",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon",
+      "Martial Artist",
+      "Sister"
+    ]
+  },
+  {
+    "name": "Shinobu Kocho",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Poison User",
+      "Hashira"
+    ]
+  },
+  {
+    "name": "Mitsuri Kanroji",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Hashira",
+      "Super Strength"
+    ]
+  },
+  {
+    "name": "Kanao Tsuyuri",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Swordswoman"
+    ]
+  },
+  {
+    "name": "Daki",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon",
+      "Upper Moon",
+      "Sadistic"
+    ]
+  },
+  {
+    "name": "Nakime",
+    "source": "Demon Slayer",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demon",
+      "Upper Moon",
+      "Musician"
+    ]
+  },
+  {
+    "name": "Tanjiro Kamado",
+    "source": "Demon Slayer",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Swordsman",
+      "Protagonist",
+      "Kind-hearted"
+    ]
+  },
+  {
+    "name": "Zenitsu Agatsuma",
+    "source": "Demon Slayer",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Swordsman",
+      "Lightning User",
+      "Coward"
+    ]
+  },
+  {
+    "name": "Inosuke Hashibira",
+    "source": "Demon Slayer",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Swordsman",
+      "Feral"
+    ]
+  },
+  {
+    "name": "Tengen Uzui",
+    "source": "Demon Slayer",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Demon Slayer",
+      "Hashira",
+      "Ninja"
+    ]
+  },
+  {
+    "name": "Yor Forger",
+    "source": "Spy x Family",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Assassin",
+      "Spy",
+      "Mother",
+      "Swordswoman"
+    ]
+  },
+  {
+    "name": "Anya Forger",
+    "source": "Spy x Family",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Esper",
+      "Telepath",
+      "Child"
+    ]
+  },
+  {
+    "name": "Fiona Frost",
+    "source": "Spy x Family",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Spy",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Loid Forger",
+    "source": "Spy x Family",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Spy",
+      "Master Strategist"
+    ]
+  },
+  {
+    "name": "Zero Two",
+    "source": "DARLING in the FranXX",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Hybrid",
+      "Pilot",
+      "Yandere-leaning",
+      "Horned"
+    ]
+  },
+  {
+    "name": "Ichigo",
+    "source": "DARLING in the FranXX",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Pilot",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Asuna Yuuki",
+    "source": "Sword Art Online",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Gamer",
+      "Vice Commander"
+    ]
+  },
+  {
+    "name": "Sinon",
+    "source": "Sword Art Online",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Sniper",
+      "Gamer",
+      "Tomboy"
+    ]
+  },
+  {
+    "name": "Alice Zuberg",
+    "source": "Sword Art Online",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Integrity Knight"
+    ]
+  },
+  {
+    "name": "Kirito",
+    "source": "Sword Art Online",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Swordsman",
+      "Gamer",
+      "Protagonist"
+    ]
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "source": "Attack on Titan",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Soldier",
+      "Swordswoman",
+      "Super Strength",
+      "Protective"
+    ]
+  },
+  {
+    "name": "Historia Reiss",
+    "source": "Attack on Titan",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Soldier",
+      "Royalty",
+      "Kind-hearted"
+    ]
+  },
+  {
+    "name": "Annie Leonhart",
+    "source": "Attack on Titan",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Titan Shifter",
+      "Martial Artist",
+      "Loner"
+    ]
+  },
+  {
+    "name": "Ymir",
+    "source": "Attack on Titan",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Titan Shifter",
+      "Soldier"
+    ]
+  },
+  {
+    "name": "Levi Ackerman",
+    "source": "Attack on Titan",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Soldier",
+      "Swordsman",
+      "Super Strength",
+      "Stoic"
+    ]
+  },
+  {
+    "name": "Erwin Smith",
+    "source": "Attack on Titan",
+    "gender": "male",
+    "tier": 1,
+    "tags": [
+      "Soldier",
+      "Commander",
+      "Strategist"
+    ]
+  },
+  {
+    "name": "Ochaco Uraraka",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Esper",
+      "Gravity User"
+    ]
+  },
+  {
+    "name": "Toga Himiko",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Villain",
+      "Shapeshifter",
+      "Yandere",
+      "Blood-based Power"
+    ]
+  },
+  {
+    "name": "Momo Yaoyorozu",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Creation User",
+      "Class Rep"
+    ]
+  },
+  {
+    "name": "Mina Ashido",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Acid User",
+      "Energetic"
+    ]
+  },
+  {
+    "name": "Mirko",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Martial Artist",
+      "Rabbit-themed"
+    ]
+  },
+  {
+    "name": "Mt. Lady",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Size-Changer"
+    ]
+  },
+  {
+    "name": "Nejire Hado",
+    "source": "My Hero Academia",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Hero",
+      "Energy Wave User"
+    ]
+  },
+  {
+    "name": "Midoriya Izuku",
+    "source": "My Hero Academia",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Hero",
+      "Super Strength",
+      "Protagonist",
+      "Determined"
+    ]
+  },
+  {
+    "name": "Bakugo Katsuki",
+    "source": "My Hero Academia",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Hero",
+      "Explosion User",
+      "Hot-headed"
+    ]
+  },
+  {
+    "name": "Todoroki Shoto",
+    "source": "My Hero Academia",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Hero",
+      "Fire and Ice User"
+    ]
+  },
+  {
+    "name": "All Might",
+    "source": "My Hero Academia",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Hero",
+      "Super Strength",
+      "Mentor",
+      "Symbol of Peace"
+    ]
+  },
+  {
+    "name": "Maki Zenin",
+    "source": "Jujutsu Kaisen",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Sorcerer",
+      "Swordswoman",
+      "Weapon User"
+    ]
+  },
+  {
+    "name": "Nobara Kugisaki",
+    "source": "Jujutsu Kaisen",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Sorcerer",
+      "Cursed Tool User",
+      "Confident"
+    ]
+  },
+  {
+    "name": "Mei Mei",
+    "source": "Jujutsu Kaisen",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Sorcerer",
+      "Mercenary"
+    ]
+  },
+  {
+    "name": "Gojo Satoru",
+    "source": "Jujutsu Kaisen",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Sorcerer",
+      "God-tier",
+      "Mentor",
+      "Overpowered"
+    ],
+    "attrs": {
+      "body": null,
+      "mind": null,
+      "soul": null,
+      "special": "EX"
+    }
+  },
+  {
+    "name": "Itadori Yuji",
+    "source": "Jujutsu Kaisen",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Sorcerer",
+      "Martial Artist",
+      "Protagonist",
+      "Vessel"
+    ]
+  },
+  {
+    "name": "Megumi Fushiguro",
+    "source": "Jujutsu Kaisen",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Sorcerer",
+      "Shikigami User"
+    ]
+  },
+  {
+    "name": "Ryomen Sukuna",
+    "source": "Jujutsu Kaisen",
+    "gender": "male",
+    "tier": 5,
+    "tags": [
+      "Curse",
+      "God-tier",
+      "Demon King",
+      "Sadistic"
+    ]
+  },
+  {
+    "name": "Nami",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Pirate",
+      "Navigator",
+      "Weather Manipulator"
+    ]
+  },
+  {
+    "name": "Nico Robin",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Pirate",
+      "Archaeologist",
+      "Devil Fruit User"
+    ]
+  },
+  {
+    "name": "Nefertari Vivi",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Royalty",
+      "Princess",
+      "Non-powered"
+    ]
+  },
+  {
+    "name": "Yamato",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Devil Fruit User",
+      "Swordswoman",
+      "Oni"
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Pirate",
+      "Empress",
+      "Devil Fruit User",
+      "Beauty"
+    ]
+  },
+  {
+    "name": "Perona",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Pirate",
+      "Devil Fruit User",
+      "Ghost User"
+    ]
+  },
+  {
+    "name": "Carrot",
+    "source": "One Piece",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Pirate",
+      "Beastfolk",
+      "Devil Fruit User"
+    ]
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "source": "One Piece",
+    "gender": "male",
+    "tier": 5,
+    "tags": [
+      "Pirate",
+      "Devil Fruit User",
+      "Protagonist",
+      "Rubber"
+    ]
+  },
+  {
+    "name": "Roronoa Zoro",
+    "source": "One Piece",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Pirate",
+      "Swordsman",
+      "Three-Sword Style"
+    ]
+  },
+  {
+    "name": "Sanji",
+    "source": "One Piece",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Pirate",
+      "Martial Artist",
+      "Chef"
+    ]
+  },
+  {
+    "name": "Erza Scarlet",
+    "source": "Fairy Tail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Mage",
+      "Swordswoman",
+      "Armor User",
+      "S-Class"
+    ]
+  },
+  {
+    "name": "Lucy Heartfilia",
+    "source": "Fairy Tail",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Mage",
+      "Celestial Spirit User"
+    ]
+  },
+  {
+    "name": "Mirajane Strauss",
+    "source": "Fairy Tail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Mage",
+      "Demon Take Over",
+      "S-Class"
+    ]
+  },
+  {
+    "name": "Juvia Lockser",
+    "source": "Fairy Tail",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Mage",
+      "Water User",
+      "Yandere-leaning"
+    ]
+  },
+  {
+    "name": "Mavis Vermillion",
+    "source": "Fairy Tail",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Mage",
+      "Guild Founder",
+      "Strategist"
+    ]
+  },
+  {
+    "name": "Olivier Armstrong",
+    "source": "Fullmetal Alchemist",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Soldier",
+      "Non-powered",
+      "General",
+      "Ice Queen"
+    ]
+  },
+  {
+    "name": "Riza Hawkeye",
+    "source": "Fullmetal Alchemist",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Soldier",
+      "Non-powered",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Winry Rockbell",
+    "source": "Fullmetal Alchemist",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Mechanic",
+      "Non-powered",
+      "Automail Engineer"
+    ]
+  },
+  {
+    "name": "Lust",
+    "source": "Fullmetal Alchemist",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Homunculus",
+      "Manipulator",
+      "Seductress"
+    ]
+  },
+  {
+    "name": "Izumi Curtis",
+    "source": "Fullmetal Alchemist",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Alchemist",
+      "Martial Artist"
+    ]
+  },
+  {
+    "name": "Edward Elric",
+    "source": "Fullmetal Alchemist",
+    "gender": "male",
+    "tier": 2,
+    "tags": [
+      "Alchemist",
+      "Protagonist",
+      "State Alchemist"
+    ]
+  },
+  {
+    "name": "Roy Mustang",
+    "source": "Fullmetal Alchemist",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Alchemist",
+      "Fire User",
+      "State Alchemist"
+    ]
+  },
+  {
+    "name": "Saber (Artoria Pendragon)",
+    "source": "Fate/Stay Night",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Swordswoman",
+      "King",
+      "Knight"
+    ]
+  },
+  {
+    "name": "Rin Tohsaka",
+    "source": "Fate/Stay Night",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Mage",
+      "Magecraft User",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Medea (Caster)",
+    "source": "Fate/Stay Night",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Witch",
+      "Sorceress"
+    ]
+  },
+  {
+    "name": "Rider (Medusa)",
+    "source": "Fate/Stay Night",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Gorgon",
+      "Tragic Hero"
+    ]
+  },
+  {
+    "name": "Luvia Edelfelt",
+    "source": "Fate",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Mage",
+      "Magecraft User",
+      "Aristocrat"
+    ]
+  },
+  {
+    "name": "Ishtar",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "God-tier",
+      "Goddess",
+      "Servant"
+    ]
+  },
+  {
+    "name": "Ereshkigal",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "God-tier",
+      "Goddess",
+      "Servant",
+      "Underworld"
+    ]
+  },
+  {
+    "name": "Tamamo no Mae",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Fox Girl",
+      "Kitsune",
+      "Beautiful"
+    ]
+  },
+  {
+    "name": "Shuten Douji",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Oni",
+      "Demon"
+    ]
+  },
+  {
+    "name": "Ibaraki Douji",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Servant",
+      "Oni",
+      "Demon"
+    ]
+  },
+  {
+    "name": "Space Ishtar",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "God-tier",
+      "Reality Warper",
+      "Cosmic"
+    ]
+  },
+  {
+    "name": "Tiamat",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "God-tier",
+      "Primordial",
+      "Dragon Goddess",
+      "Reality Warper"
+    ]
+  },
+  {
+    "name": "Kama",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "God-tier",
+      "Goddess",
+      "Reality Warper"
+    ]
+  },
+  {
+    "name": "Kiara Sessyoin",
+    "source": "Fate/Grand Order",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "God-tier",
+      "Reality Warper",
+      "Yandere",
+      "Beast"
+    ]
+  },
+  {
+    "name": "Arcueid Brunestud",
+    "source": "Tsukihime",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Vampire",
+      "True Ancestor",
+      "God-tier"
+    ]
+  },
+  {
+    "name": "Albedo",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Succubus",
+      "Overlord",
+      "Yandere",
+      "Loyal"
+    ]
+  },
+  {
+    "name": "Shalltear Bloodfallen",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Vampire",
+      "Undead",
+      "Floor Guardian"
+    ]
+  },
+  {
+    "name": "Lupusregina Beta",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Beastfolk",
+      "Werewolf",
+      "Floor Guardian"
+    ]
+  },
+  {
+    "name": "Solution Epsilon",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Slime",
+      "Floor Guardian"
+    ]
+  },
+  {
+    "name": "Entoma Vasilissa Zeta",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Insect",
+      "Floor Guardian",
+      "Shapeshifter"
+    ]
+  },
+  {
+    "name": "Narberal Gamma",
+    "source": "Overlord",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Android",
+      "Maid",
+      "Floor Guardian"
+    ]
+  },
+  {
+    "name": "Ainz Ooal Gown",
+    "source": "Overlord",
+    "gender": "male",
+    "tier": 5,
+    "tags": [
+      "Undead",
+      "Overlord",
+      "Skeleton",
+      "Strategist"
+    ]
+  },
+  {
+    "name": "Megumin",
+    "source": "KonoSuba",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Mage",
+      "Explosion User",
+      "Chuunibyou"
+    ]
+  },
+  {
+    "name": "Aqua",
+    "source": "KonoSuba",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Goddess",
+      "Healer",
+      "Useless Goddess"
+    ]
+  },
+  {
+    "name": "Darkness",
+    "source": "KonoSuba",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Crusader",
+      "Masochist",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Wiz",
+    "source": "KonoSuba",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Lich",
+      "Shopkeeper",
+      "Kind-hearted"
+    ]
+  },
+  {
+    "name": "Eris",
+    "source": "KonoSuba",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Goddess",
+      "Swordswoman"
+    ]
+  },
+  {
+    "name": "Raphtalia",
+    "source": "The Rising of the Shield Hero",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demi-human",
+      "Swordswoman",
+      "Tanuki"
+    ]
+  },
+  {
+    "name": "Filo",
+    "source": "The Rising of the Shield Hero",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demi-human",
+      "Filolial",
+      "Shapeshifter"
+    ]
+  },
+  {
+    "name": "Tohka Yatogami",
+    "source": "Date A Live",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Spirit",
+      "Princess-themed",
+      "Sword User"
+    ]
+  },
+  {
+    "name": "Kurumi Tokisaki",
+    "source": "Date A Live",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Spirit",
+      "Time Manipulator",
+      "Yandere",
+      "Gun User"
+    ]
+  },
+  {
+    "name": "Origami Tobiichi",
+    "source": "Date A Live",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Spirit",
+      "Soldier",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Yoshino",
+    "source": "Date A Live",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Spirit",
+      "Ice User",
+      "Shy"
+    ]
+  },
+  {
+    "name": "Miku Izayoi",
+    "source": "Date A Live",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Spirit",
+      "Singer",
+      "Yuri-leaning"
+    ]
+  },
+  {
+    "name": "Violet Evergarden",
+    "source": "Violet Evergarden",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Soldier-turned-Writer",
+      "Auto Memory Doll"
+    ]
+  },
+  {
+    "name": "Homura Akemi",
+    "source": "Puella Magi Madoka Magica",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Magical Girl",
+      "Time Manipulator",
+      "Yandere",
+      "Tragic Hero"
+    ]
+  },
+  {
+    "name": "Madoka Kaname",
+    "source": "Puella Magi Madoka Magica",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Magical Girl",
+      "God-tier",
+      "Reality Warper"
+    ]
+  },
+  {
+    "name": "Mami Tomoe",
+    "source": "Puella Magi Madoka Magica",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Magical Girl",
+      "Gun User",
+      "Mentor"
+    ]
+  },
+  {
+    "name": "Sayaka Miki",
+    "source": "Puella Magi Madoka Magica",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Magical Girl",
+      "Swordswoman"
+    ]
+  },
+  {
+    "name": "Ryuko Matoi",
+    "source": "Kill la Kill",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Scissor Blade User",
+      "Protagonist"
+    ]
+  },
+  {
+    "name": "Satsuki Kiryuin",
+    "source": "Kill la Kill",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Student Council President",
+      "Goku Uniform User"
+    ]
+  },
+  {
+    "name": "Android 18",
+    "source": "Dragon Ball",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Android",
+      "Super Strength",
+      "Cyborg"
+    ]
+  },
+  {
+    "name": "Bulma",
+    "source": "Dragon Ball",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Genius Inventor"
+    ]
+  },
+  {
+    "name": "Chi-Chi",
+    "source": "Dragon Ball",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Martial Artist",
+      "Mother"
+    ]
+  },
+  {
+    "name": "Videl",
+    "source": "Dragon Ball",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Martial Artist",
+      "Non-powered"
+    ]
+  },
+  {
+    "name": "Goku",
+    "source": "Dragon Ball",
+    "gender": "male",
+    "tier": 5,
+    "tags": [
+      "Saiyan",
+      "Martial Artist",
+      "Protagonist",
+      "Super Strength"
+    ]
+  },
+  {
+    "name": "Vegeta",
+    "source": "Dragon Ball",
+    "gender": "male",
+    "tier": 4,
+    "tags": [
+      "Saiyan",
+      "Martial Artist",
+      "Prince"
+    ]
+  },
+  {
+    "name": "Kaguya Shinomiya",
+    "source": "Kaguya-sama: Love Is War",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student Council",
+      "Genius",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Ai Hoshino",
+    "source": "Oshi no Ko",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Idol",
+      "Mother"
+    ]
+  },
+  {
+    "name": "Yukinoshita Yukino",
+    "source": "Oregairu",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student",
+      "Tsundere",
+      "Ice Queen"
+    ]
+  },
+  {
+    "name": "Eriri Spencer Sawamura",
+    "source": "Saekano",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Artist",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Utaha Kasumigaoka",
+    "source": "Saekano",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Writer",
+      "Kuudere-leaning"
+    ]
+  },
+  {
+    "name": "Megumi Kato",
+    "source": "Saekano",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student",
+      "Plain Heroine"
+    ]
+  },
+  {
+    "name": "Maomao",
+    "source": "The Apothecary Diaries",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Apothecary",
+      "Genius",
+      "Poison Expert"
+    ]
+  },
+  {
+    "name": "Chitanda Eru",
+    "source": "Hyouka",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student",
+      "Curious"
+    ]
+  },
+  {
+    "name": "Taiga Aisaka",
+    "source": "Toradora",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student",
+      "Tsundere"
+    ]
+  },
+  {
+    "name": "Minori Kushieda",
+    "source": "Toradora",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Student",
+      "Athlete"
+    ]
+  },
+  {
+    "name": "Ami Kawashima",
+    "source": "Toradora",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Model",
+      "Two-faced"
+    ]
+  },
+  {
+    "name": "Ais Wallenstein",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Adventurer",
+      "Swordswoman",
+      "Level Up System"
+    ]
+  },
+  {
+    "name": "Hestia",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Goddess",
+      "Familia Leader",
+      "Kind-hearted"
+    ]
+  },
+  {
+    "name": "Eris (Goddess)",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Goddess",
+      "Familia Leader"
+    ]
+  },
+  {
+    "name": "Freya",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Goddess",
+      "Familia Leader",
+      "Beautiful"
+    ]
+  },
+  {
+    "name": "Lily (Liliruca Arde)",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Adventurer",
+      "Demi-human",
+      "Supporter"
+    ]
+  },
+  {
+    "name": "Ryuu Lion",
+    "source": "Danmachi",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Adventurer",
+      "Elf",
+      "Waitress"
+    ]
+  },
+  {
+    "name": "Elysia",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Herrscher",
+      "Reality Warper",
+      "Cheerful"
+    ]
+  },
+  {
+    "name": "Mobius",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Herrscher",
+      "Time Manipulator"
+    ]
+  },
+  {
+    "name": "Kiana Kaslana",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Herrscher",
+      "Gunner",
+      "Protagonist",
+      "Fire User",
+      "Reality Warper",
+      "God-tier"
+    ],
+    "lore": "Mod +0: Standard Valkyrie. Mod +1: Herrscher of the Void. Mod +2: Herrscher of Flamescion. Mod +3: Herrscher of Finality (god-tier)."
+  },
+  {
+    "name": "Fu Hua",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Herrscher Vessel"
+    ]
+  },
+  {
+    "name": "Bronya",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Cyborg",
+      "Mech Pilot",
+      "Stoic"
+    ]
+  },
+  {
+    "name": "Raiden Mei",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Herrscher",
+      "Swordswoman",
+      "Lightning User"
+    ]
+  },
+  {
+    "name": "Seele Vollerei",
+    "source": "Honkai Impact 3rd",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Herrscher",
+      "Duality",
+      "Twin-personality"
+    ]
+  },
+  {
+    "name": "Yog-Sothoth-chan",
+    "source": "Guns GirlZ",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "God-tier",
+      "Eldritch",
+      "Cosmic Horror"
+    ]
+  },
+  {
+    "name": "Herta",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Genius",
+      "Robot Avatar",
+      "Scientist"
+    ]
+  },
+  {
+    "name": "Robin",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Trailblazer",
+      "Musician",
+      "Memokeeper"
+    ]
+  },
+  {
+    "name": "Silver Wolf",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Hacker",
+      "Gamer",
+      "Genius"
+    ]
+  },
+  {
+    "name": "Kafka",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Stellaron Hunter",
+      "Mysterious"
+    ]
+  },
+  {
+    "name": "Firefly",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Mech Pilot",
+      "Soldier"
+    ]
+  },
+  {
+    "name": "Topaz",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "IPC Agent",
+      "Detective"
+    ]
+  },
+  {
+    "name": "Jingliu",
+    "source": "Honkai Star Rail",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Swordswoman",
+      "Mara-struck",
+      "Powerful"
+    ]
+  },
+  {
+    "name": "Sunday",
+    "source": "Honkai Star Rail",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Family Leader",
+      "Reality Warper-leaning"
+    ]
+  },
+  {
+    "name": "Jean",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Knight",
+      "Acting Grand Master",
+      "Dandelion"
+    ]
+  },
+  {
+    "name": "Lisa",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Mage",
+      "Librarian",
+      "Electro User"
+    ]
+  },
+  {
+    "name": "Istaroth",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "God-tier",
+      "Primordial",
+      "Reality Warper"
+    ]
+  },
+  {
+    "name": "Lumine",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Traveler",
+      "Protagonist"
+    ]
+  },
+  {
+    "name": "Hu Tao",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Director",
+      "Pyro User",
+      "Mischievous"
+    ]
+  },
+  {
+    "name": "Yae Miko",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Kitsune",
+      "Fox Girl",
+      "Shrine Maiden"
+    ]
+  },
+  {
+    "name": "Raiden Shogun",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "God-tier",
+      "Electro Archon",
+      "Shogun"
+    ]
+  },
+  {
+    "name": "Ganyu",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Half-Adeptus",
+      "Secretary",
+      "Cryo User"
+    ]
+  },
+  {
+    "name": "Nilou",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Dancer",
+      "Hydro User"
+    ]
+  },
+  {
+    "name": "Nahida",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "God-tier",
+      "Dendro Archon",
+      "Child-appearance"
+    ]
+  },
+  {
+    "name": "Furina",
+    "source": "Genshin Impact",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "God-tier",
+      "Hydro Archon",
+      "Theatrical"
+    ]
+  },
+  {
+    "name": "Aether",
+    "source": "Genshin Impact",
+    "gender": "male",
+    "tier": 3,
+    "tags": [
+      "Traveler",
+      "Protagonist"
+    ]
+  },
+  {
+    "name": "Serana",
+    "source": "The Elder Scrolls V: Skyrim",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Vampire",
+      "Mage",
+      "Pureblood"
+    ]
+  },
+  {
+    "name": "Athena",
+    "source": "Campione!",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "God-tier",
+      "Goddess",
+      "Campione"
+    ]
+  },
+  {
+    "name": "Erica Blandelli",
+    "source": "Campione!",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Knight",
+      "Witch Hunter"
+    ]
+  },
+  {
+    "name": "Bernkastel",
+    "source": "Umineko no Naku Koro ni",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "Witch",
+      "God-tier",
+      "Reality Warper",
+      "Cat-themed"
+    ]
+  },
+  {
+    "name": "Lambdadelta",
+    "source": "Umineko no Naku Koro ni",
+    "gender": "female",
+    "tier": 6,
+    "tags": [
+      "Witch",
+      "God-tier",
+      "Reality Warper"
+    ]
+  },
+  {
+    "name": "Beatrice (Umineko)",
+    "source": "Umineko no Naku Koro ni",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Witch",
+      "Reality Warper",
+      "Golden Witch"
+    ]
+  },
+  {
+    "name": "Reverie Metherlence",
+    "source": "Elemental Gelade",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Edel Raid",
+      "Powerful"
+    ]
+  },
+  {
+    "name": "Seras Victoria",
+    "source": "Hellsing",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Vampire",
+      "Soldier",
+      "Gun User"
+    ]
+  },
+  {
+    "name": "Yasaka",
+    "source": "High School DxD",
+    "gender": "female",
+    "tier": 4,
+    "tags": [
+      "Kitsune",
+      "Fox Girl",
+      "Faction Leader"
+    ]
+  },
+  {
+    "name": "Saeko Busujima",
+    "source": "Highschool of the Dead",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Swordswoman",
+      "Survivor",
+      "Martial Artist"
+    ]
+  },
+  {
+    "name": "Medusa Gorgon",
+    "source": "Soul Eater",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Witch",
+      "Snake User",
+      "Villain"
+    ]
+  },
+  {
+    "name": "Nyotengu",
+    "source": "Dead or Alive",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Tengu",
+      "Martial Artist",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Shiro",
+    "source": "No Game No Life",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Gamer",
+      "Genius",
+      "Strategist"
+    ]
+  },
+  {
+    "name": "Stephanie Dola",
+    "source": "No Game No Life",
+    "gender": "female",
+    "tier": 1,
+    "tags": [
+      "Royalty",
+      "Non-powered"
+    ]
+  },
+  {
+    "name": "Milim Nava",
+    "source": "That Time I Got Reincarnated as a Slime",
+    "gender": "female",
+    "tier": 5,
+    "tags": [
+      "Demon Lord",
+      "Dragon",
+      "God-tier",
+      "Carefree"
+    ]
+  },
+  {
+    "name": "Shuna",
+    "source": "That Time I Got Reincarnated as a Slime",
+    "gender": "female",
+    "tier": 2,
+    "tags": [
+      "Demi-human",
+      "Healer",
+      "Kitsune"
+    ]
+  },
+  {
+    "name": "Shion",
+    "source": "That Time I Got Reincarnated as a Slime",
+    "gender": "female",
+    "tier": 3,
+    "tags": [
+      "Demi-human",
+      "Ogre",
+      "Cook"
+    ]
+  },
+  {
+    "name": "Rimuru Tempest",
+    "source": "That Time I Got Reincarnated as a Slime",
+    "gender": "other",
+    "tier": 6,
+    "tags": [
+      "Demon Lord",
+      "Slime",
+      "Reincarnator",
+      "Shapeshifter"
+    ]
+  },
+  {
+    "name": "Subaru Natsuki",
+    "source": "Re:Zero",
+    "gender": "male",
+    "tier": 1,
+    "tags": [
+      "Non-powered",
+      "Protagonist",
+      "Return by Death"
+    ]
+  },
+  {
+    "name": "Reinhard van Astrea",
+    "source": "Re:Zero",
+    "gender": "male",
+    "tier": 5,
+    "tags": [
+      "Knight",
+      "Super Strength",
+      "Strongest"
+    ]
+  }
+]

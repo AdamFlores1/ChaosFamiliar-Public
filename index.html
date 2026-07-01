@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaos Familiar</title>
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@700&family=Inter:wght@300;400;500&family=Pirata+One&family=Marcellus&family=IM+Fell+English+SC&family=Caveat:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="cosmic-bg" id="cosmic-bg"></div>
+
+<div class="app">
+  <div id="notif" class="notif"></div>
+
+  <div class="header">
+    <h1>Chaos Familiar</h1>
+    <p>Summon from the infinite multiverse</p>
+  </div>
+
+  <div class="space-decoration-strip" id="space-deco-strip"></div>
+
+  <div class="controls-bar">
+    <div class="filter-group">
+      <button class="filter-btn active" onclick="setGender('both')" id="f-both">Both</button>
+      <button class="filter-btn" onclick="setGender('female')" id="f-female">Female</button>
+      <button class="filter-btn" onclick="setGender('male')" id="f-male">Male</button>
+    </div>
+    <div class="stats-row">
+      PULLS: <span id="stat-total">0</span>&nbsp;|&nbsp;POOL: <span id="stat-pool">0</span>&nbsp;|&nbsp;PITY: <span id="stat-pity">0/90</span>&nbsp;|&nbsp;TICKETS: <span id="stat-tickets" class="t6" style="cursor:pointer" onclick="openChaosTicketModal()" title="Open Chaos Ticket">0</span>
+    </div>
+  </div>
+
+  <div class="collection-mini-bar" id="collection-mini">Collection: 0 / 0 (0%)</div>
+  <div class="power-bonds-bar" id="power-bonds-bar"></div>
+
+  <div class="tag-filter-wrap">
+    <button class="tag-filter-toggle" id="tag-filter-toggle" onclick="toggleTagFilterPanel()">
+      <span id="tag-filter-toggle-label">Filter by Tag</span>
+      <span class="tag-filter-arrow" id="tag-filter-arrow">▾</span>
+    </button>
+    <div class="tag-filter-bar" id="tag-filter-bar" style="display:none"></div>
+  </div>
+
+  <div class="pull-area">
+    <div class="summon-circle-wrap" id="summon-circle-wrap">
+      <!-- Populated by buildSummonCircleAsset() in gacha.js -->
+    </div>
+    <div class="pity-wrap" id="pity-wrap-el">
+      <div class="pity-label"><span>Pity Progress</span><span id="pity-text">0 / 90</span></div>
+      <div class="pity-bar"><div class="pity-fill" id="pity-fill" style="width:0%"></div></div>
+    </div>
+    <div class="inspiration-row" id="inspiration-row"></div>
+    <div class="btn-row">
+      <button class="summon-btn" onclick="doPull(1)"><span>⟡ Summon ×1</span></button>
+      <button class="summon-btn x10" onclick="doPull(10)"><span>✦ Summon ×10</span></button>
+    </div>
+  </div>
+
+  <div class="cards-grid" id="cards-grid"></div>
+
+  <div class="divider"></div>
+
+  <div class="tabs">
+    <button class="tab tabfont-history active" onclick="switchTab('history')">History</button>
+    <button class="tab tabfont-pool" onclick="switchTab('pool')">Pool <span class="badge" id="badge-pool">0</span></button>
+    <button class="tab tabfont-collection" onclick="switchTab('collection')">Collection</button>
+    <button class="tab tabfont-team" onclick="switchTab('team')">Team</button>
+
+    <button class="tab" onclick="switchTab('universe')" style="font-family:'Cinzel',serif;font-size:.75rem;letter-spacing:.06em">Universe</button>
+    <button class="tab tabfont-glossary" onclick="switchTab('about')">Glossary</button>
+  </div>
+
+  <!-- HISTORY -->
+  <div class="tab-panel active" id="tab-history">
+    <div class="history-toolbar">
+      <div class="hist-filters">
+        <button class="hist-filter-btn active" data-f="all" onclick="setHistoryFilter('all')">All</button>
+        <button class="hist-filter-btn" data-f="6star" onclick="setHistoryFilter('6star')">6★ Only</button>
+        <button class="hist-filter-btn" data-f="dupes" onclick="setHistoryFilter('dupes')">Dupes</button>
+      </div>
+      <button class="clear-btn" onclick="confirmClearRecords()">🗑 Clear Records</button>
+    </div>
+    <div class="history-list" id="history-list"><div class="empty-state">No summons yet — call forth your first familiar</div></div>
+  </div>
+
+  <!-- POOL (read-only) -->
+  <div class="tab-panel" id="tab-pool">
+    <div class="pool-controls">
+      <div class="pool-search-row">
+        <input class="pool-search" placeholder="Search… or use tag:demon tier:5 source:naruto !villain" id="pool-search" oninput="renderPool()" />
+        <button class="fav-filter-btn" id="fav-filter-btn" onclick="toggleFavFilter()" title="Show favorites only">☆</button>
+      </div>
+      <div class="pool-filters">
+        <select id="pool-gender-filter" onchange="renderPool()">
+          <option value="">All Genders</option><option value="female">Female</option><option value="male">Male</option><option value="other">Other</option>
+        </select>
+        <select id="pool-rarity-filter" onchange="renderPool()">
+          <option value="">All Tiers</option>
+          <option value="1">★ Non-powered</option><option value="2">★★ Some powers</option><option value="3">★★★ Good powers</option>
+          <option value="4">★★★★ Strong</option><option value="5">★★★★★ Very strong</option><option value="6">★×6 Godly</option>
+        </select>
+        <select id="pool-sort" onchange="setPoolSort(this.value)">
+          <option value="default">Sort: Default</option>
+          <option value="alpha">A → Z</option>
+          <option value="alpha_desc">Z → A</option>
+          <option value="tier_desc">Tier: High → Low</option>
+          <option value="tier_asc">Tier: Low → High</option>
+          <option value="source">By Universe</option>
+          <option value="mod">Highest Mod</option>
+          <option value="pulls">Most Pulled</option>
+          <option value="favorites">Favorites First</option>
+        </select>
+      </div>
+    </div>
+    <div class="pool-grid" id="pool-grid"></div>
+  </div>
+
+  <!-- COLLECTION -->
+  <div class="tab-panel" id="tab-collection">
+    <div id="power-bonds-panel"></div>
+    <div id="collection-content"></div>
+  </div>
+
+  <!-- TEAM -->
+  <div class="tab-panel" id="tab-team"><div id="team-content"></div></div>
+
+  <!-- UNIVERSE -->
+  <div class="tab-panel" id="tab-universe"><div id="universe-content"></div></div>
+
+  <!-- GLOSSARY -->
+  <div class="tab-panel" id="tab-about">
+    <div class="about-wrap">
+      <div class="about-section lore-intro">
+        <h3 class="t6">⟡ The Chaos Familiar System</h3>
+        <p class="about-desc">You are a <strong style="color:var(--gold)">Chaos Summoner</strong>. Your playstyle is all about summoning familiars and working with them to fight.<br><br>
+        The Mod system represents awakening: each duplicate brings a familiar closer to their canonical full power. And after a certain point — beyond it.</p>
+      </div>
+      <div class="about-section">
+        <h3>⟡ Reality Tiers &amp; Rarity</h3>
+        <p class="about-desc">A single grading system based solely on in-universe power — never fame, popularity, or screen time.</p>
+        <div class="tier-table">
+          <div class="tier-row"><div class="tier-stars t1">★</div><div><div class="tier-name t1">Non-powered — Gray</div><div class="tier-desc">No supernatural abilities whatsoever.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t2">★★</div><div><div class="tier-name t2">Some Powers — Green</div><div class="tier-desc">Low-tier supernatural worlds or physically exceptional but mortal.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t3">★★★</div><div><div class="tier-name t3">Good Powers — Blue</div><div class="tier-desc">Solid supernatural ability in a normal supernatural world.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t4">★★★★</div><div><div class="tier-name t4">Strong — Purple</div><div class="tier-desc">High-tier threats capable of destroying armies or regions.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t5">★★★★★</div><div><div class="tier-name t5">Very Strong — Gold</div><div class="tier-desc">Near-godly power — country to world-level threat.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t6">★★★★★★</div><div><div class="tier-name t6">Godly / OP — Rainbow</div><div class="tier-desc">Reality-warping, multiverse-level, beyond comprehension.</div></div></div>
+        </div>
+      </div>
+      <div class="about-section"><h3>✦ Drop Rates</h3><div class="rarity-table" id="rarity-table"></div></div>
+      <div class="about-section">
+        <h3>⟡ Affinity</h3>
+        <div class="about-desc" style="line-height:1.9">
+          Every familiar you summon enters your service with a <strong style="color:var(--gold)">favorable impression</strong> — the equivalent of <strong style="color:var(--gold)">50 affection</strong> out of 100. They lean toward you from the moment of summoning.
+        </div>
+        <h3 style="margin-top:.85rem">⟡ Pity System</h3>
+        <div class="about-desc" style="line-height:1.9">Every pull increases your pity counter by 1.<br>At <strong style="color:var(--gold)">75 pulls</strong>, the 6★ rate begins climbing each pull.<br>At <strong style="color:var(--gold)">90 pulls</strong>, the next pull is <em>guaranteed 6★</em>.<br>After a 6★ pull, pity resets to 0.</div>
+      </div>
+      <div class="about-section">
+        <h3>✦ The Mod System</h3>
+        <p class="about-desc">Pulling a duplicate familiar levels up that character's <strong style="color:var(--gold)">Mod level</strong> instead of being wasted.</p>
+        <div class="tier-table">
+          <div class="tier-row"><div class="tier-stars" style="color:#888">+0</div><div><div class="tier-name" style="color:#888">Starting Power</div><div class="tier-desc">Canon introduction power.</div></div></div>
+          <div class="tier-row"><div class="tier-stars" style="color:#4FC178">+1</div><div><div class="tier-name" style="color:#4FC178">Early Growth</div><div class="tier-desc">Meaningful mid-story checkpoint.</div></div></div>
+          <div class="tier-row"><div class="tier-stars" style="color:#3DA9F5">+2</div><div><div class="tier-name" style="color:#3DA9F5">Mid-Story Power</div><div class="tier-desc">Closer to strongest known state.</div></div></div>
+          <div class="tier-row"><div class="tier-stars" style="color:#B654E0">+3</div><div><div class="tier-name" style="color:#B654E0">Full Potential</div><div class="tier-desc">Full canon power ceiling.</div></div></div>
+          <div class="tier-row"><div class="tier-stars t6">+4</div><div><div class="tier-name t6">Beyond Canon</div><div class="tier-desc">Surpasses canon. Caps at +99.</div></div></div>
+        </div>
+      </div>
+      <div class="about-section">
+        <h3>⟡ Adding Your Own Characters</h3>
+        <p class="about-desc">This build has no in-app add form. Open <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">data/characters.json</code> in any text editor and add entries: <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">name</code>, <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">source</code>, <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">gender</code>, <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">tier</code> (1–6), <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">tags</code>, and optional <code style="background:var(--surface2);padding:.1rem .35rem;border-radius:3px">image</code> URL.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/procicon.js"></script>
+<script src="js/gacha.js"></script>
+</body>
+</html>

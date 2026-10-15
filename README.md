@@ -6,7 +6,7 @@ The public version runs locally in the browser, stores progress in `localStorage
 
 ## Project status
 
-This repository is the **public/hobby version** of Chaos Familiar. It is useful as an example of client-side state management, weighted random selection, collection systems, filtering, and UI behavior, but it is not intended to be a rights-clean commercial showcase.
+This repository is the **public/hobby version** of Chaos Familiar. It demonstrates client-side state management, weighted random selection, collection systems, filtering, and UI behavior.
 
 The project uses names and concepts associated with third-party fictional works. No ownership of those third-party properties is claimed. Optional custom images should only be used when you have the rights or permission to use them.
 
@@ -21,6 +21,7 @@ The project uses names and concepts associated with third-party fictional works.
 - Favorites and private notes
 - Universe/source browsing
 - Search and tag filtering
+- Writing-inspiration tools, including random pulls and pairing prompts
 - Generated placeholder sigils when no custom image is supplied
 - Local browser persistence with `localStorage`
 
@@ -90,7 +91,9 @@ The public build is a client-side HTML/CSS/JavaScript application. Its main engi
 - notes/favorites;
 - data-driven character definitions.
 
-A separate hosted/private version has additional backend/admin functionality. That code is not part of this repository.
+A separate hosted/full version adds backend/admin functionality and a larger curated pool. That implementation is not part of this public repository.
+
+**Hosted version:** https://chaos-familiar.onrender.com
 
 ## Inspiration and attribution
 

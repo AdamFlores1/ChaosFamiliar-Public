@@ -1,37 +1,61 @@
-Chaos Familiar was built by Adam Flores, heavily inspired by ChaosGacha from BronzDeck.
-
-I tried to find a Gacha with only summons/characters/familiars, but those I found were either limited, or just not well-made.
-
-So yes, this is a case of "Fine, I'll do it myself".
-
-If you use Chaos Familiar, mention me by name- I'd appreciate it. Or you could also just link my profile on Webnovel. Or maybe other ones when I actually get around to making accounts on other fanfiction sites.
-
-
-
-
 # Chaos Familiar — Public Version
 
-A gacha-style anime character summoning simulator for creative writing, worldbuilding, and roleplay. Pull familiars from a curated pool, build teams, track collections, and use the inspiration tools for your fanfic or RP sessions.
+A browser-based character collection and gacha simulator built as a hobby project for creative writing, worldbuilding, and roleplay.
 
-All progress is saved locally in your browser (localStorage). Nothing is sent anywhere.
+The public version runs locally in the browser, stores progress in `localStorage`, and does not require an account or backend.
 
-## Running it
+## Project status
 
-**Easiest:** Double-click `start.bat` (requires Python — free from [python.org](https://www.python.org/downloads/)).
+This repository is the **public/hobby version** of Chaos Familiar. It demonstrates client-side state management, weighted random selection, collection systems, filtering, and UI behavior.
 
-**Manual:** Open a terminal in this folder and run:
+The project uses names and concepts associated with third-party fictional works. No ownership of those third-party properties is claimed. Optional custom images should only be used when you have the rights or permission to use them.
 
+## Features
+
+- Weighted gacha pulls
+- Soft pity at 75 and hard pity at 90
+- Duplicate/mod progression
+- Chaos Tickets and Power Bonds
+- Collection tracking and completion statistics
+- Three team slots with synergy detection
+- Favorites and private notes
+- Universe/source browsing
+- Search and tag filtering
+- Writing-inspiration tools, including random pulls and pairing prompts
+- Generated placeholder sigils when no custom image is supplied
+- Local browser persistence with `localStorage`
+
+## Running locally
+
+### Windows
+
+Double-click:
+
+```text
+start.bat
 ```
-python3 -m http.server 8000
+
+Python is required because the project needs to be served through a local HTTP server.
+
+### Manual
+
+From the repository directory:
+
+```bash
+python -m http.server 8000
 ```
 
-Then open `http://localhost:8000` in your browser.
+Then open:
 
-> ⚠ Do **not** open `index.html` directly as a file — the character pool won't load. You need the local server.
+```text
+http://localhost:8000
+```
+
+Do not open `index.html` directly with a `file://` URL because the character data is loaded separately.
 
 ## Adding your own characters
 
-This build has no in-app add form. Open `data/characters.json` in any text editor and add entries like this:
+Edit `data/characters.json` and add entries using the existing schema, for example:
 
 ```json
 {
@@ -43,35 +67,38 @@ This build has no in-app add form. Open `data/characters.json` in any text edito
   "image": "https://example.com/image.png"
 }
 ```
-Image is optional. If included, you must have full rights to the image (created it yourself, or have explicit permission). A unique generated sigil is shown by default. 
 
-**Tier guide (in-universe power only — never fame or popularity):**
+The `image` field is optional. When adding an image, use only material you are allowed to use.
 
-- `1` — No powers (slice of life, normal humans)
-- `2` — Low-tier supernatural or physically exceptional
-- `3` — Solid supernatural ability
-- `4` — High-tier, army/region-level threat
-- `5` — Near-godly, country/world-level
-- `6` — Reality-warping, multiverse-level
+### Tier guide
 
-`image` is optional. If omitted, a placeholder is shown.
+- **1** — No powers / ordinary human
+- **2** — Low-tier supernatural or exceptional physical ability
+- **3** — Solid supernatural ability
+- **4** — High-tier, army/region-level threat
+- **5** — Near-godly, country/world-level
+- **6** — Reality-warping or multiverse-level
 
-## Features
+## Technical scope
 
-- **Gacha pulls** with weighted tiers, soft pity at 75, hard pity at 90
-- **Mod system** — duplicates level up the familiar instead of being wasted
-- **Chaos Tickets** — rare drops that form permanent Power Bonds
-- **Collection tracker** with universe completion, milestones, and stats
-- **Three team slots** with synergy detection
-- **Favorites**, private notes, and character detail view
-- **Universe Browser** — see every familiar by series
-- **Writing inspiration** — random pulls, couple/rival pairings, AI-generated prompts
-- **Tag filtering** and advanced pool search
+The public build is a client-side HTML/CSS/JavaScript application. Its main engineering areas include:
 
-## Want more?
+- weighted random-selection and pity logic;
+- persistent browser state;
+- collection and duplicate progression;
+- filtering/search;
+- team state;
+- notes/favorites;
+- data-driven character definitions.
 
-The full hosted version has an admin panel, in-app character suggestions, a curated pool of 200+ characters, and more features. Check it out at **https://chaos-familiar.onrender.com**.
+A separate hosted/full version adds backend/admin functionality and a larger curated pool. That implementation is not part of this public repository.
+
+**Hosted version:** https://chaos-familiar.onrender.com
+
+## Inspiration and attribution
+
+Chaos Familiar was heavily inspired by [ChaosGacha](https://github.com/BronzDeck/ChaosGacha) by BronzDeck. This project should not be presented as if that inspiration or third-party fictional properties originated here.
 
 ## License
 
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — Free for personal use. Credit required. Commercial use prohibited.
+Repository-owned material is published under the license included in [LICENSE](LICENSE). That license does not grant rights to third-party characters, franchises, names, artwork, or other external intellectual property.
